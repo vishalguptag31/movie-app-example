@@ -1,11 +1,15 @@
 import React from 'react';
-
+import  {Provider}   from 'react-redux'
+import store from './redux//store'
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Provider store={store}>
+     <div className="app">
+         Redux Configuration Example 
+      </div>
+    </Provider>
+    
   );
 }
 
@@ -42,5 +46,10 @@ export default App;
    4. npm install --save reactstrap
 
 
+   ##########################
+   REDUX
+
+   1. npm install redux react-redux redux-thunk
+    2. npm i redux-devtools-extension
 
 */
