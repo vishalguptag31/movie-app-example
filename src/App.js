@@ -1,40 +1,20 @@
-import React from 'react';
-import  {Provider}   from 'react-redux'
-import store from './redux//store'
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./redux//store";
+import Header from "./components/Header";
 
 function App() {
   return (
     <Provider store={store}>
-     <div className="app">
-         Redux Configuration Example 
+      <Header />
+      <div className="app">
+        <h1> Redux Configuration Example </h1>
       </div>
     </Provider>
-    
   );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
    Installation 

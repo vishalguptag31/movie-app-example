@@ -6,10 +6,10 @@ import './assets/scss/base.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  // </React.StrictMode>,
+  ,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
