@@ -50,6 +50,7 @@ const Header = () => {
         <div className="header-navbar">
           <div className="header-image">
             <img src={logo} alt="" />
+            
           </div>
           <div
             className={`${
