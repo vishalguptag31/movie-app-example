@@ -1,9 +1,18 @@
 @import "./_variables";
 @import "./header";
+@import "./_main-content";
+@import "./slide-show";
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 html body {
   margin: 0;
   font-family: "Roboto Mono", sans-serif;
   background-color: #020e18;
+}
+
+.main {
+  text-align: center;
+  height: 100vh;
+  background-color: #020e18;
+  overflow-y: scroll;
 }

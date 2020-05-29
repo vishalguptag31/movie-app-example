@@ -2,19 +2,39 @@ import React from "react";
 import { Provider } from "react-redux";
 import store from "./redux//store";
 import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
   return (
     <Provider store={store}>
       <Header />
       <div className="app">
-        <h1> Redux Configuration Example </h1>
+        <Main />
       </div>
     </Provider>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
    Installation 
@@ -24,6 +44,7 @@ export default App;
    3. npm install --save bootstrap
            add import 'bootstrap/dist/css/bootstrap.css';      in index.js
    4. npm install --save reactstrap
+   5. npm install --save prop-types
 
 
    ##########################
