@@ -4,6 +4,8 @@
 @import "./slide-show";
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "./_paginate";
+@import './_movie-card';
+@import './rating.scss';
 
 html body {
   margin: 0;
