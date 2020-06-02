@@ -53,5 +53,4 @@ export default App;
    1. npm install redux react-redux redux-thunk
     2. npm i redux-devtools-extension
     
-
 */
